@@ -8,33 +8,39 @@ To write a program to find the square root of a number.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Define a function.
-2. Assign number_iters = 100 in the function to perform 100 iteratios.
-3. Set i = 0.
-4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
-5. Return number
+## Step 1:
+Define a function.
 
-## Program:
+## Step 2:
+Assign number_iters = 100 in the function to perform 100 iteratios.
+
+## Step 3:
+Set i = 0.
+
+## Step 4:
+Calculate number = 0.5 * (number + a / number) for 100 iterations.
+
+## Step 5:
+Return number
+
+## Program
 ```
-/*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: Karthikeyan R
-RegisterNumber:  212222240045
+Developed by: R.karthikeyan 
+RegisterNumber: 212222240045
 
-def newton(n,n_iter =100):
-    a=float(n)
-    for i in range(n_iter):
-        n=0.5*(n+a/n)
-    return n
-    
-x=int(input())
-print("Square root of the number:",newton(x))
-*/
+def newton_method(number,number_iters=100):
+     a=float(number)
+     for i in range(number_iters):
+         number=0.5*(number+a/number)
+     return number
+a=int(input())
+print("Square root of the number:",newton_method(a))
 ```
-
 ## Output:
 
-![Screenshot 2023-06-03 111226](https://github.com/Yamunaasri/Square-root-of-a-number/assets/115707860/c50983a5-354a-453f-b6c2-d2a6adbb6392)
+![image](https://github.com/karthikeyan-R16/Square-root-of-a-number/assets/119421232/1bad016d-5501-42e5-9b5b-7449468fe515)
+
 
 
 ## Result:
