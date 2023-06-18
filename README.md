@@ -25,17 +25,18 @@ Return number
 
 ## Program
 ```
+/*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: R.karthikeyan 
+Developed by: Karthikeyan R
 RegisterNumber: 212222240045
-
-def newton_method(number,number_iters=100):
-     a=float(number)
-     for i in range(number_iters):
-         number=0.5*(number+a/number)
-     return number
-a=int(input())
-print("Square root of the number:",newton_method(a))
+def sqrt():
+    x=int(input())
+    b=x
+    for i in range(10):
+        x=0.5*(x+b/x)
+    return x
+print("Square root of the number:",sqrt())
+*/
 ```
 ## Output:
 
