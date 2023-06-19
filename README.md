@@ -28,14 +28,15 @@ Return number
 /*
 Program to find the square root for the given number(newton's method) using function.
 Developed by: Karthikeyan R
-RegisterNumber: 212222240045
-def sqrt():
-    x=int(input())
-    b=x
-    for i in range(10):
-        x=0.5*(x+b/x)
-    return x
-print("Square root of the number:",sqrt())
+RegisterNumber:  212222240045
+
+def sroot(n):
+    a=float(n)
+    for i in range(100):
+        n=0.5 *(n + a / n)
+    return n
+a=int(input())
+print("Square root of the number:",sroot(a))
 */
 ```
 ## Output:
